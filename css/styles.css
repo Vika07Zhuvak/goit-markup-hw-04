@@ -167,9 +167,8 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
 
-    display: flex;
     justify-content: center;
-    align-items: center;
+
 }
 
 .hero-container {
@@ -199,26 +198,19 @@ a {
     color: #fff;
     border: none;
     border-radius: 4px;
-    padding: 12px 24px;
+    padding: 16px 32px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.hero-button {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 
 
@@ -426,10 +418,10 @@ a {
 
 /* ==== SOCIAL ICONS ==== */
 .social-list {
+
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -441,7 +433,6 @@ a {
 }
 
 .social-link {
-    gap: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -449,6 +440,7 @@ a {
     height: 100%;
     border-radius: 50%;
     background-color: var(--IRIS);
+
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -545,7 +537,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    background-color: rgba(77, 90, 229, 0.9);
+    background-color: #4d5ae5 background-color: rgba(77, 90, 229, 0.9);
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
