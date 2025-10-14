@@ -344,6 +344,18 @@ a {
 .social-link svg {
     fill: #f4f4fd;
 }
+
+.team .social-link {
+    background-color: #6c63ff;
+    /* фіолетовий */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team .social-link:hover,
+.team .social-link:focus {
+    background-color: #4b42d6;
+    /* темно-фіолетовий при наведенні */
+} 
 /* PORTFOLIO */
 .portfolio {
     padding-top: 120px;
@@ -429,6 +441,12 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.highlight-text {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
 }
 
 
