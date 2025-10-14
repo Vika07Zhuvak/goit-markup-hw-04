@@ -133,6 +133,28 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* HERO */
 .hero {
     max-width: 1440px;
@@ -196,6 +218,40 @@ a {
 .hero-button:focus {
     background-color: #404bbf;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* FEATURES */
 .features {
     padding: 120px 0;
@@ -263,10 +319,44 @@ a {
     fill: #2e2f42;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* TEAM */
 :root {
     --IRIS: #4d5ae5;
     --OCEAN: #404bbf;
+    --CLOUD: #f4f4fd;
 }
 
 .team {
@@ -290,8 +380,8 @@ a {
     flex-wrap: wrap;
     gap: 24px;
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 .team-item {
@@ -334,14 +424,15 @@ a {
     margin-bottom: 8px;
 }
 
-/* ==== SOCIAL LINKS ==== */
+/* ==== SOCIAL ICONS ==== */
 .social-list {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 24px;
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 .social-item {
@@ -365,9 +456,36 @@ a {
     background-color: var(--OCEAN);
 }
 
-.social-link svg {
-    fill: #f4f4fd;
+.social-icon-footer {
+    fill: var(--CLOUD);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* PORTFOLIO */
 .portfolio {
     padding-top: 120px;
@@ -457,6 +575,37 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* FOOTER */
 :root {
     --accent-color: #4d5ae5;
@@ -527,8 +676,8 @@ a {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-link-footer:hover,
+.social-link-footer:focus {
     background-color: #31d0aa;
 }
 
