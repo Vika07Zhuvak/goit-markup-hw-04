@@ -1,4 +1,4 @@
-/* RESET & BASE */
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -133,19 +133,19 @@ a {
 
 /* HERO */
 
-.hero-container{
+.hero-container {
     padding: 188px 0;
     text-align: center;
     background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)
-    ),
-            url("/images/people-office.jpg");
+            rgba(46, 47, 66, 0.7)),
+        url("../images/people-office.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
@@ -376,15 +376,14 @@ a {
     box-shadow: 0 2px 8px rgba(46, 47, 66, 0.1);
 }
 
-/* Контейнер для зображення */
+
 .portfolio-thumb {
     position: relative;
-    /* Вимога: позиціонування відносне */
     overflow: hidden;
-    /* Приховує вміст, що виходить за межі */
+   
 }
 
-/* Параграф (overlay) */
+
 .overlay-text {
     position: absolute;
     top: 0;
@@ -401,19 +400,19 @@ a {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* При hover — показати текст */
+
 .portfolio-item:hover .overlay-text {
     transform: translateY(0%);
 }
 
-/* Зображення */
+
 .portfolio-photo {
     display: block;
     width: 100%;
     height: auto;
 }
 
-/* Інформаційна частина */
+
 .portfolio-info {
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -442,16 +441,15 @@ a {
     padding: 100px 0;
 }
 
-/* Контейнер */
+
 .footer-container {
     display: flex;
     align-items: baseline;
-    /* базова лінія для вирівнювання */
     gap: 120px;
-    /* замість margin-right для зручності */
+    
 }
 
-/* Ліва частина */
+
 .footer-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -475,7 +473,7 @@ a {
     color: #f4f4fd;
 }
 
-/* Права частина */
+
 .footer-social-title {
     font-weight: 500;
     font-size: 16px;
@@ -485,7 +483,7 @@ a {
     margin-bottom: 16px;
 }
 
-/* Список соцмереж */
+
 .social-list {
     display: flex;
     gap: 16px;
@@ -494,7 +492,6 @@ a {
     margin: 0;
 }
 
-/* Посилання соцмереж */
 .social-link {
     display: flex;
     align-items: center;
@@ -509,7 +506,7 @@ a {
 .social-link:hover,
 .social-link:focus {
     background-color: #31d0aa;
-    /* плавна зміна кольору */
+ 
 }
 
 .social-link svg {
