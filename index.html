@@ -416,84 +416,73 @@
 
 
 
-
-
-    <footer class="page-footer">
-        <div class="container footer-container">
-            <div class="footer-left">
-                <a class="logo footer-logo" href="./index.html">
-                    Web<span class="logo-part">Studio</span>
-                </a>
-                <p class="footer-text">
-                    Increase the flow of customers and sales for your business with digital
-                    marketing &amp; growth solutions.
-                </p>
-            </div>
-
-            <div class="footer-right">
-                <p class="footer-social-title">Social media</p>
-                <ul class="social-list">
-                    <li class="social-item">
-                        <a href="#" class="social-link social-link-footer" aria-label="Instagram">
-                            <svg class="social-icon-footer" width="24" height="24">
-                                <use href="./images/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a href="#" class="social-link social-link-footer" aria-label="Twitter">
-                            <svg class="social-icon-footer" width="24" height="24">
-                                <use href="./images/icons.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a href="#" class="social-link social-link-footer" aria-label="Facebook">
-                            <svg class="social-icon-footer" width="24" height="24">
-                                <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a href="#" class="social-link social-link-footer" aria-label="LinkedIn">
-                            <svg class="social-icon-footer" width="24" height="24">
-                                <use href="./images/icons.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+<footer class="page-footer">
+    <div class="container footer-container">
+        <div class="footer-left">
+            <a class="logo footer-logo" href="./index.html">
+                Web<span class="logo-part">Studio</span>
+            </a>
+            <p class="footer-text">
+                Increase the flow of customers and sales for your business with digital
+                marketing &amp; growth solutions.
+            </p>
         </div>
-    </footer>
+
+        <div class="footer-right">
+            <p class="footer-social-title">Social media</p>
+            <ul class="social-list">
+                <li class="social-item">
+                    <a href="#" class="social-link social-link-footer" aria-label="Instagram">
+                        <svg class="social-icon-footer" width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-link social-link-footer" aria-label="Twitter">
+                        <svg class="social-icon-footer" width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-link social-link-footer" aria-label="Facebook">
+                        <svg class="social-icon-footer" width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-link social-link-footer" aria-label="LinkedIn">
+                        <svg class="social-icon-footer" width="24" height="24">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- subscribe form -->
+        <div class="footer-subscribe">
+            <p class="footer-subscribe-title">Subscribe</p>
+
+            <form class="footer-form" name="subscribe-form">
+                <input class="footer-form-input" type="email" name="subscribe-email" id="subscribe-email"
+                    placeholder="E-mail" />
+
+                <button class="btn-btn-accent" type="submit">
+                    Subscribe
+                    <svg class="btn-icon" width="24" height="20">
+                        <use href="./images/icons.svg#icon-icon-send"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+</footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- Modal Window-->
 
 
     <div class="backdrop is-open">
@@ -540,14 +529,9 @@
 
                 <div class="modal-form-field">
                     <label class="modal-form-label" for="user-comment">Comment</label>
-                        <textarea class="modal-form-input"  name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+                        <textarea class="modal-form-message"  name="user-comment" id="user-comment" placeholder="Text input"></textarea>
                 </div>
-
-
-               
-
-                <button type="submit">Send</button>
-
+                <button class="btn-btn-accent" type="submit">Send</button>
             </form>
         </div>
     </div>
